@@ -1,0 +1,16 @@
+{
+  "name": "1line",
+  "displayName": "1line",
+  "description": "Your agents forget. 1line doesn't. Shared memory and tools for Claude, ChatGPT, Grok, and Cursor.",
+  "version": "0.1.0",
+  "author": {
+    "name": "GalaxyCo",
+    "email": "hello@galaxyco.ai",
+    "url": "https://galaxyco.ai"
+  },
+  "homepage": "https://brain.galaxyco.ai",
+  "repository": "https://github.com/galaxy-co-ai/1line-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "memory", "agents", "1line", "galaxyco"],
+  "logo": "logo.png"
+}
