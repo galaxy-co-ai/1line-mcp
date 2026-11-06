@@ -2,28 +2,34 @@
 
 Your agents forget. 1line doesn't.
 
-This Cursor / Grok Bot marketplace plugin connects to the hosted 1line MCP server so your agents share one memory and tool surface.
+Cursor / Grok Bot marketplace plugin for the hosted 1line MCP server. Your agents share one memory and tool surface.
 
 ## Connect
 
 - **MCP URL:** `https://1line.galaxyco.ai/mcp`
 - **Site:** [brain.galaxyco.ai](https://brain.galaxyco.ai)
 - **Privacy:** [1line.galaxyco.ai/privacy](https://1line.galaxyco.ai/privacy)
-- **Support:** [1line.galaxyco.ai/support](https://1line.galaxyco.ai/support) (shipping)
+- **Terms:** [1line.galaxyco.ai/terms](https://1line.galaxyco.ai/terms)
+- **Support:** [1line.galaxyco.ai/support](https://1line.galaxyco.ai/support)
 
-Sign in with OAuth when prompted (`brain:read` / `brain:write`).
+Sign in with OAuth when prompted (`brain:read` / `brain:write`). A 1line account is required; free signup at [brain.galaxyco.ai](https://brain.galaxyco.ai).
 
 ## Install
 
-Install from the Cursor Marketplace or Grok Bot plugin catalog once published, or add the MCP URL manually in your client.
+1. Install from the Cursor Marketplace or Grok Bot plugin catalog once published, **or**
+2. Add `https://1line.galaxyco.ai/mcp` as a remote MCP in your client.
 
-## Testing
+## Testing (reviewers)
 
-1. Install the plugin (or add `https://1line.galaxyco.ai/mcp` as a remote MCP).
-2. Complete OAuth against a 1line account that has a Brain with at least one note.
+1. Install this plugin (or add the MCP URL manually).
+2. Complete OAuth with a 1line account that has a Brain with at least one note.
 3. Ask the agent to recall something stored in 1line.
-4. Confirm a write (save a short note) and that it shows in the Brain.
+4. Ask it to save a short note, then confirm it appears in the Brain UI.
+
+Reviewer test seats: email `hello@galaxyco.ai` and we will provision one (no MFA).
 
 ## Publisher
 
 GalaxyCo · [galaxyco.ai](https://galaxyco.ai) · hello@galaxyco.ai
+
+MIT license. This marketplace listing is free; 1line product plans are separate.
